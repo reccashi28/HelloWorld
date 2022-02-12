@@ -8,6 +8,10 @@ public class Hello {
         score = 950;
         ranked = getRanking(score);
         System.out.println( name + " , you are Ranked " + ranked + " in the leader board." );
+        name = "Rebecca";
+        score = 1050;
+        ranked = getRanking(score);
+        System.out.println( name + " , you are Ranked " + ranked + " in the leader board." );
     }
 
     public static int getRanking(int score){
