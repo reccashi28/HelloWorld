@@ -12,6 +12,10 @@ public class Hello {
         score = 1050;
         ranked = getRanking(score);
         System.out.println( name + " , you are Ranked " + ranked + " in the leader board." );
+        name = "Ina";
+        score = 20;
+        ranked = getRanking(score);
+        System.out.println( name + " , you are Ranked " + ranked + " in the leader board." );
     }
 
     public static int getRanking(int score){
