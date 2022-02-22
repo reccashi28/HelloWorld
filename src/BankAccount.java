@@ -5,6 +5,18 @@ public class BankAccount {
     private String email;
     private String phoneNumber;
 
+    public BankAccount( String name,
+     String accountNumber,
+     double balance,
+     String email,
+     String phoneNumber){
+        this.name = name;
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
     public void setName(String  name){
         this.name = name;
     }
