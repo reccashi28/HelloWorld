@@ -10,6 +10,7 @@ public class Hello {
         BankAccount meyer = new BankAccount("Rebecca", "12345678", 200.00, "reb@gmail.com", "+4912232345");
         BankAccount wilhelm = new BankAccount("Wilhelm", "879836475", 2050.00, "wil@gmail.com", "+4912232345");
         BankAccount defau = new BankAccount();
+        defau.getBalance();
         System.out.println(meyer.getBalance());
         meyer.setBalance(100.23);
         meyer.depositToBank(20);
