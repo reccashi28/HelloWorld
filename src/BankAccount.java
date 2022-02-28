@@ -5,6 +5,10 @@ public class BankAccount {
     private String email;
     private String phoneNumber;
 
+    public BankAccount(){
+        this("Default Wilhelm","879836475", 2050.00, "wil@gmail.com", "+4912232345");
+        System.out.println("Default value");
+    }
     public BankAccount( String name,
      String accountNumber,
      double balance,
@@ -26,6 +30,13 @@ public class BankAccount {
     public void setBalance(double  balance){
         this.balance = balance;
     }
+
+    public BankAccount(String name, String accountNumber) {
+        this(name, accountNumber, 100.2,"reb@gmail.com", "1509384763" );
+        this.name = name;
+        this.accountNumber = accountNumber;
+    }
+
     public void setEmail(String  email){
         this.email = email;
     }
